@@ -27,5 +27,8 @@ This is a Streamlit application that generates images from text prompts using th
  
 - Optimization
    - Trains the model by minimizing the mean squared error (MSE) between predicted and actual noise.
-     - $$L_\theta = \mathbb{E}_{x_0, \epsilon, t}\left[\|\epsilon - \epsilon_\theta(x_t, t)\|^2\right]$$
+     - $$
+L_\theta = \mathbb{E}_{x_0, \epsilon, t} \left[ \| \epsilon - \epsilon_\theta(x_t, t) \|^2 \right]
+$$
+
 
